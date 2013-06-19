@@ -1,0 +1,10 @@
+Objective: 
+  Test differnet cpp complier (Visual Studio C++ /g++) performance for STL 
+
+Howto 
+  1). compile  with no optimize option 
+  2). compile  with O2 
+
+Result: 
+  -- Test with  Visual Studio C++ 2010 on my labtop(Intel I3) shows  the time used for 2) is only 1/10 of time used for 1). it used 1 second only for 2)   
+  -- Test with g++ 4.6(on my raspberry box) shows the time used for 2) is half of the time used for 1)  (it used 38 second fort  2)
